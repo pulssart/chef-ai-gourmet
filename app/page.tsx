@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { ChefHatIcon, SparklesIcon, BookOpenIcon, Search, Clock, Star, Filter, Sparkles, Eye } from 'lucide-react'
 import { supabase } from '@/lib/supabase'
